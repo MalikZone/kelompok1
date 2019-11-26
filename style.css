@@ -6,20 +6,21 @@ header{
   background: black;
   color: yellow;
   padding-bottom: 20pt;
-  padding-left: 1%;
-  padding-right: 1%;
+  /* padding-left: 1%;
+  padding-right: 1%; */
 }
 
 #navbar{
 position: fixed;
 z-index: 9999;
 width: 100%;
-background: black;
+background:#2e2e2e;
 }
 
 #navbar #img{
 float: left;
 width: 25%;
+margin-left: 2%;
 }
 
 #navbar #menu{
