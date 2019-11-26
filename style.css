@@ -2,6 +2,50 @@ body{
   margin: 0px;
   padding: 0px;
 }
+header{
+  background: black;
+  color: yellow;
+  padding-bottom: 20pt;
+}
+
+#navbar{
+position: fixed;
+z-index: 9999;
+width: 100%;
+background: black;
+}
+
+#navbar #img{
+float: left;
+width: 25%;
+}
+
+#navbar #menu{
+float: right;
+width: 30%;
+}
+
+#navbar #menu li{
+  display: inline;
+  padding-left: 5pt;
+  padding-right: 5pt;
+}
+
+#navbar #menu a{
+  text-decoration: none;
+  color: white;
+}
+
+#navbar #menu a:hover{
+  color: yellow;
+  font-weight: bolder;
+}
+
+header #home{
+  padding-top: 50pt;
+  text-align: center;
+}
+
 #testi{
   width: 100%;
   border-bottom: 1pt ridge black;
