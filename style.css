@@ -2,3 +2,39 @@ body{
   margin: 0px;
   padding: 0px;
 }
+#testi{
+  width: 100%;
+  border-bottom: 1pt ridge black;
+  padding-bottom: 10pt;
+}
+
+#testi .title{
+  background: yellow; /*warna menyesuaikan*/
+
+}
+
+#testi .testi-isi{
+  overflow: hidden;
+  padding-top: 10pt;
+  /* border-bottom-style: ridge; */
+}
+
+#testi .testi-isi-1{
+  float: left;
+  text-align: center;
+  width: 48%;
+  border-right: 2pt solid black;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 20pt;
+}
+
+#testi .testi-isi-2{
+  float: right;
+  text-align: center;
+  width: 48%;
+  /* border-left: 2pt solid black; */
+  /* padding-left: 1%; */
+  padding-right: 1%;
+  padding-bottom: 20pt;
+}
