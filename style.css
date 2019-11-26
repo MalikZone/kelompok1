@@ -5,7 +5,6 @@ body{
 }
 
 #regis{
-  color: blue;
   background: black;
 }
 
@@ -65,13 +64,13 @@ body{
 #regis .daftar{
   color: white;
   text-align: center;
-  /* background: black; */
+  background: black;
   height: 100%;
   font-size: 150%;
 }
 
 #regis .daftar .konten{
-  padding-top: 15%;
+  padding-top: 10%;
 }
 
 #regis .daftar .konten a input{
