@@ -1,4 +1,93 @@
 body{
   margin: 0px;
   padding: 0px;
+  font-family: sans-serif;
 }
+
+#regis{
+  color: blue;
+  background: black;
+}
+
+#regis .registitle{
+  background: yellow;
+  text-align: center;
+  color: black;
+  padding: 0;
+  height: 18%;
+  font-size:150%;
+}
+
+#regis .registitle h1{
+  padding: 5px;
+}
+
+#regis .tahapan h1{
+  color: white;
+  text-align: center;
+}
+
+#regis .steps{
+  margin-left: 5%;
+  color: white;
+}
+
+#regis .steps h1{
+  font-weight: bold;
+  font-size: 150%;
+}
+
+#regis .steps .step1{
+  font-size: 150%;
+  width: 30%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#regis .steps .step2{
+  font-size: 150%;
+  width: 30%;
+  border-bottom: 1px solid white;
+}
+
+#regis .steps .step3{
+  font-size: 150%;
+  width: 30%;
+  border-bottom: 1px solid white;
+}
+
+#regis .steps .step4{
+  font-size: 150%;
+  width: 30%;
+  border-bottom: 1px solid white;
+}
+
+#regis .daftar{
+  color: white;
+  text-align: center;
+  /* background: black; */
+  height: 100%;
+  font-size: 150%;
+}
+
+#regis .daftar .konten{
+  padding-top: 15%;
+}
+
+#regis .daftar .konten a input{
+  height: 10%;
+  width: 20%;
+  background: yellow;
+  border: 0;
+  text-decoration: none;
+}
+
+#regis .daftar .konten a input:hover{
+  background: #FFD700;
+}
+
+/* #regis .daftar .konten a input{
+  padding-top: 15%;
+  text-decoration: none;
+  color: black;
+} */
